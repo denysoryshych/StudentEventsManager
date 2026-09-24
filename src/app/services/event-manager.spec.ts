@@ -6,9 +6,11 @@ describe('EventManager', () => {
   let service: EventManager;
 
   beforeEach(() => {
+    localStorage.clear();
     TestBed.configureTestingModule({});
     service = TestBed.inject(EventManager);
-    localStorage.clear();
+    (service as any).events = [];
+    (service as any).visibleEvents = [];
   });
 
   it('should be created', () => {

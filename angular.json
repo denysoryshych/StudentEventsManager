@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "kursovamazurkevich": {
+    "studenteventsmanager": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "kursovamazurkevich:build:production"
+              "buildTarget": "studenteventsmanager:build:production"
             },
             "development": {
-              "buildTarget": "kursovamazurkevich:build:development"
+              "buildTarget": "studenteventsmanager:build:development"
             }
           },
           "defaultConfiguration": "development"
